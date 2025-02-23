@@ -1,4 +1,4 @@
-package org.example.jwt_demo;
+package org.example.jwt_demo.pojo;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
