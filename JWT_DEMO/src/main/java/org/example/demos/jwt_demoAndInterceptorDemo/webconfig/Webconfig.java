@@ -1,9 +1,8 @@
-package org.example.jwt_demo.webconfig;
+package org.example.demos.jwt_demoAndInterceptorDemo.webconfig;
 
-import org.example.jwt_demo.interceptor.Interceptor;
+import org.example.demos.jwt_demoAndInterceptorDemo.interceptor.Interceptor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.core.env.Environment;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 

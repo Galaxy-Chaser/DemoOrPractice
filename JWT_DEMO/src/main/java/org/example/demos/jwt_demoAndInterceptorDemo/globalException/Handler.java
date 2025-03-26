@@ -1,4 +1,4 @@
-package org.example.jwt_demo.globalException;
+package org.example.demos.jwt_demoAndInterceptorDemo.globalException;
 
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;

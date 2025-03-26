@@ -1,4 +1,4 @@
-package org.example.jwt_demo;
+package org.example.demos;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,10 +6,10 @@ import org.springframework.boot.web.servlet.ServletComponentScan;
 
 @ServletComponentScan
 @SpringBootApplication
-public class JwtDemoApplication {
+public class DemosApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(JwtDemoApplication.class, args);
+        SpringApplication.run(DemosApplication.class, args);
     }
 
 }

@@ -1,10 +1,9 @@
-package org.example.jwt_demo.interceptor;
+package org.example.demos.jwt_demoAndInterceptorDemo.interceptor;
 
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.HandlerInterceptor;
-import org.springframework.web.servlet.ModelAndView;
 
 @Component
 public class Interceptor implements HandlerInterceptor {
